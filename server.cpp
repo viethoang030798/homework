@@ -238,7 +238,7 @@ int main(int argc, char *argv[])
     //listen for up to 5 requests at a time
     listen(serverSd, 5);
     //receive a request from client using accept
-    //we need a new address to connect with the client
+    // a new address to connect with the client
     sockaddr_in newSockAddr;
     socklen_t newSockAddrSize = sizeof(newSockAddr);
     //accept, create a new socket descriptor to
@@ -250,10 +250,10 @@ int main(int argc, char *argv[])
         exit(1);
     }
     cout << "Connected with client!" << endl;
-    //lets keep track of the session time
+    //session time
     struct timeval start1, end1;
     gettimeofday(&start1, NULL);
-    //also keep track of the amount of data sent as well
+    //amount of data sent 
     int bytesRead, bytesWritten = 0;
     while(1)
     {
