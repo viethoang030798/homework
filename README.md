@@ -6,7 +6,7 @@ Program structure has 2 parts, client side take domain input and connection info
 
 
 
-****To build, open 2 terminal, one for client and one for server:
+****To build, open 2 terminal, one for client and one for server, input these commands:
 
 g++ server.cpp -o server
 
@@ -15,16 +15,16 @@ g++ client.cpp -o client
 
 
 
-****To run the compiled files:
+****To run the compiled files, input these commands:
 
----Server side---
+---On Server side---
 
 ./server 1.1.1.1 53
 
 Server take 2 argument, first is upstream server address and second is port.
 By default it is set to 1.1.1.1 and 53
 
----Client side---
+---On Client side---
 
 ./client 127.0.0.1 9000
 
