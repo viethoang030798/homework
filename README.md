@@ -23,4 +23,5 @@ g++ client.cpp -o client
 Client take 2 argument, first is ip and second is port
 
 after run client, input domain name to Client terminal to start query
+
 e.g google.com
