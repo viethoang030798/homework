@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
     gettimeofday(&start1, NULL);
     while(1)
     {
-        cout << ">";
+        cout << "Input domain>";
         string data;
         getline(cin, data);
         memset(&msg, 0, sizeof(msg));//clear the buffer
