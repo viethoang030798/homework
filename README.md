@@ -7,11 +7,12 @@ Program structure has 2 parts, client side take domain input and connection info
 
 
 ****To build, open 2 terminal, one for client and one for server, input these commands:
-
+```
 g++ server.cpp -o server
-
+```
+```
 g++ client.cpp -o client
-
+```
 
 
 
