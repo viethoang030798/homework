@@ -1,7 +1,7 @@
 
 DNS Forwarder C++
 
-Program structure has 2 parts, client side take domain input and connection info then send to server, server talk to upstream and retrieve corresponding data.
+Program structure has 2 parts, client side take domain input and connection info then send to server, server talk to upstream to quering and retrieve corresponding data.
 
 To use on Linux, open 2 terminal, one for client and one for server:
 
